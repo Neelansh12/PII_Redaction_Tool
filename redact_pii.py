@@ -914,8 +914,3 @@ class PIIRedactor:
                 "unchanged": redacted == text,
             }
         return results
-
-
-if __name__ == "__main__":
-    redactor = PIIRedactor()
-    redactor.redact_docx("docs/Red Herring Prospectus.docx", "Redacted_Output.docx")
